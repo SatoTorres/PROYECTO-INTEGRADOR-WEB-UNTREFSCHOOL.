@@ -1,0 +1,57 @@
+#primeraParte {
+  background-color: #fc7300;
+  border-bottom-style: outset;
+  border-color: black;
+  border-bottom-width: 3px;
+  font-family: "Belanosima", sans-serif;
+}
+
+#banner {
+  font-family: "Poppins", sans-serif;
+  font-size: 120px;
+  color: #eff5f5;
+  text-align: center;
+  position: absolute;
+  right: 50px;
+  left: 50px;
+  top: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#bannerTitulo {
+  border-bottom-style: outset;
+  border-color: black;
+  border-bottom-width: 3px;
+}
+
+#quienesSomos {
+  font-family: "Belanosima", sans-serif;
+  font-size: xx-large;
+  border-bottom-style: outset;
+  border-color: black;
+  border-bottom-width: 3px;
+}
+
+#porQue {
+  font-family: "Belanosima", sans-serif;
+  font-size: xx-large;
+  border-bottom-style: outset;
+  border-color: black;
+  border-bottom-width: 3px;
+}
+
+#propuestaEducativa {
+  font-family: "Belanosima", sans-serif;
+  font-size: xx-large;
+  border-bottom-style: outset;
+  border-color: black;
+  border-bottom-width: 3px;
+}
+
+#ultimasNoticias {
+  font-family: "Belanosima", sans-serif;
+  font-size: xx-large;
+  border-bottom-style: outset;
+  border-color: black;
+  border-bottom-width: 3px;
+}/*# sourceMappingURL=master.css.map */

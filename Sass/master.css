@@ -1,7 +1,7 @@
 #primeraParte {
   background-color: #fc7300;
   border-bottom-style: outset;
-  border-color: black;
+  border-color: #181823;
   border-bottom-width: 3px;
   font-family: "Belanosima", sans-serif;
 }
@@ -9,7 +9,7 @@
 #banner {
   font-family: "Poppins", sans-serif;
   font-size: 120px;
-  color: #eff5f5;
+  color: #EFF5F5;
   text-align: center;
   position: absolute;
   right: 50px;
@@ -20,38 +20,58 @@
 
 #bannerTitulo {
   border-bottom-style: outset;
-  border-color: black;
+  border-color: #181823;
+  border-bottom-width: 3px;
+  image-rendering: auto;
+}
+
+#sectionUno {
+  background-color: #EFF5F5;
+  border-bottom-style: outset;
+  border-color: #181823;
   border-bottom-width: 3px;
 }
 
 #quienesSomos {
   font-family: "Belanosima", sans-serif;
   font-size: xx-large;
+}
+
+#sectionDos {
+  background-color: #1F8A70;
   border-bottom-style: outset;
-  border-color: black;
+  border-color: #181823;
   border-bottom-width: 3px;
 }
 
 #porQue {
   font-family: "Belanosima", sans-serif;
   font-size: xx-large;
+}
+
+#sectionTres {
+  background-color: #fc7300;
   border-bottom-style: outset;
-  border-color: black;
+  border-color: #181823;
   border-bottom-width: 3px;
 }
 
 #propuestaEducativa {
   font-family: "Belanosima", sans-serif;
   font-size: xx-large;
+}
+
+#sectionCuatro {
   border-bottom-style: outset;
-  border-color: black;
+  border-color: #181823;
   border-bottom-width: 3px;
 }
 
 #ultimasNoticias {
   font-family: "Belanosima", sans-serif;
   font-size: xx-large;
-  border-bottom-style: outset;
-  border-color: black;
-  border-bottom-width: 3px;
+}
+
+#pie {
+  background-color: #fc7300;
 }/*# sourceMappingURL=master.css.map */

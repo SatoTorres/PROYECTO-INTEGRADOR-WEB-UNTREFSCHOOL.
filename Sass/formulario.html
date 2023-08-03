@@ -4,35 +4,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
     <link rel="shortcut icon" href="https://untref.edu.ar/assets/img/favicon.ico">
-    <link rel="stylesheet" href="/Sass/formularioMaster.css">
+    <link rel="stylesheet" href="./formularioMaster.css">
 </head>
-<body>
+<body id="todo">
     <div class="container" id="formulario">
-        <h1>Contáctenos</h1>
+        <h1 id="titulo">Contáctenos</h1>
         <form target="_blank" action="https://formsubmit.co/your@email.com" method="POST">
           <div class="form-group">
             <div class="form-row">
               <div class="col">
-                <input type="text" name="name" class="form-control" placeholder="Nombre y Apellido" required>
+                <input id="nombre" type="text" name="name" class="form-control" placeholder="Nombre y Apellido" required>
               </div>
               <div class="col">
-                <input type="text" name="name" class="form-control" placeholder="Dirección" required>
+                <input id="dire" type="text" name="name" class="form-control" placeholder="Dirección" required>
               </div>
               <div class="col">
-                <input type="email" name="email" class="form-control" placeholder="Email" required>
+                <input id="email" type="email" name="email" class="form-control" placeholder="Email" required>
               </div>
               <div class="col">
-                <input type="text" name="name" class="form-control" placeholder="Teléfono" required>
+                <input id="tele" type="text" name="name" class="form-control" placeholder="Teléfono" required>
               </div>
               <div class="col">
-                <input type="text" name="name" class="form-control" placeholder="Asunto" required>
+                <input id="asun" type="text" name="name" class="form-control" placeholder="Asunto" required>
               </div>
             </div>
           </div>
           <div class="form-group">
-            <textarea placeholder="Mensaje" class="form-control" name="message" rows="10" required></textarea>
+            <textarea id="mensa" placeholder="Mensaje" class="form-control" name="message" rows="10" required></textarea>
           </div>
-          <button type="submit" class="btn btn-lg btn-dark btn-block">Enviar</button>
+          <button id="boton" type="submit" class="btn btn-lg btn-dark btn-block">Enviar</button>
         </form>
       </div>
 </body>

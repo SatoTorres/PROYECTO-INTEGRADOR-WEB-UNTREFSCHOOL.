@@ -1,9 +1,71 @@
-h1 {
-  color: #EFF5F5;
-  text-align: center;
-  margin: 35px 0 20px 0 !important;
+#todo {
+  display: flex;
+  background-color: burlywood;
+  padding: 20px 20px;
 }
 
-body {
-  background-image: url(/Img/banner\ facultad.jpg);
+#formulario {
+  width: -moz-max-content;
+  width: max-content;
+}
+
+#titulo {
+  font-family: "Poppins", sans-serif;
+}
+
+#nombre {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#dire {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#email {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#tele {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#asun {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#mensa {
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+#boton {
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin: 35px 0 20px 0;
+}
+
+@media (max-width: 320px) {
+  #todo {
+    flex-direction: column;
+    justify-content: start;
+  }
+}
+@media (min-width: 321px) {
+  #todo {
+    flex-direction: column;
+    justify-content: start;
+  }
+}
+@media (min-width: 769px) {
+  #todo {
+    display: flex;
+  }
 }/*# sourceMappingURL=formularioMaster.css.map */

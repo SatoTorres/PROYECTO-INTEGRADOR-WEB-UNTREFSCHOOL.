@@ -6,14 +6,31 @@ $colorTres: #EFF5F5;
 $fuenteTitulo : 'Poppins', sans-serif;
 $fuenteCuerpo : 'Belanosima', sans-serif;
 
+#todo{
+    display: flex;
+    background-color: $colorTres;
+}
 #primeraParte{
+    display: flex;
+    justify-content:space-around;
     background-color: $colorFondo;
     border-bottom-style: outset;
     border-color: $colorBorde;
     border-bottom-width: 3px;
     font-family: 'Belanosima', sans-serif;
+    object-fit: scale-down;
+    padding: 10px;
+}
+#boton{
+    background-color: $colorFondo;
+    display: inline-block;
+    padding: 7px 10px;
+}
+#boton:hover{
+    background-color: $colorTres;
 }
 #banner{
+    display: flex;
     font-family: 'Poppins', sans-serif;
     font-size: 120px;
     color: $colorTres;
@@ -25,50 +42,131 @@ $fuenteCuerpo : 'Belanosima', sans-serif;
     background-color: rgba($color: #000000, $alpha: 0.5);
 }
 #bannerTitulo{
+    display: flex;
     border-bottom-style: outset;
     border-color: $colorBorde;
     border-bottom-width: 3px;
     image-rendering: auto;
+    object-fit: fill;
 }
 #sectionUno{
     background-color: $colorTres;
     border-bottom-style: outset;
     border-color: $colorBorde;
     border-bottom-width: 3px;
+    margin-top: 20px;
+    padding: 10px;
+}
+#s1{
+    display: flex;
 }
 #quienesSomos{
     font-family: $fuenteCuerpo;
     font-size: xx-large; 
+}
+#quienesImg{
+    image-rendering: auto;
+    object-fit: fill;
+    width: 400px;
+    height: 200px;
 }
 #sectionDos{
     background-color: $colorUno;
     border-bottom-style: outset;
     border-color: $colorBorde;
     border-bottom-width: 3px;
+    padding: 10px;
+}
+#s2{
+    display: flex;
 }
 #porQue{
     font-family: $fuenteCuerpo;
     font-size: xx-large;
+}
+#porQueImg{
+    width: 400px;
+    height: 200px;
 }
 #sectionTres{
     background-color: $colorFondo;
     border-bottom-style: outset;
     border-color: $colorBorde;
     border-bottom-width: 3px;
+    padding: 10px;
 }
 #propuestaEducativa{
     font-family: $fuenteCuerpo;
     font-size: xx-large;
 }
+#prop1{
+    width: 300px;
+    height: 200px;
+}
+#prop2{
+    width: 300px;
+    height: 200px;
+}
+#prop3{
+    width: 300px;
+    height: 200px;
+}
+#prop4{
+    width: 300px;
+    height: 200px;
+}
 #sectionCuatro{
     border-bottom-style: outset;
     border-color: $colorBorde;
     border-bottom-width: 3px;
+    padding: 10px;
+}
+#s4{
+    display: flex;
 }
 #ultimasNoticias{
     font-family: $fuenteCuerpo;
     font-size: xx-large;
 }
 #pie{
+    display: flex;
+    justify-content: space-around;
     background-color: #fc7300;
+}
+#mapa{
+    object-fit: scale-down;
+}
+@media (max-width: 320px){
+    #todo{
+        flex-direction: column;
+        justify-content: start;
+    }
+    #primeraParte{
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    #boton{
+        margin: 6px 0px;
+    }
+}
+@media (min-width: 321px){
+    #todo{
+        flex-direction: column;
+    }
+    #primeraParte{
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    #boton{
+        margin: 6px 0px;
+    }
+}
+@media (min-width: 769px){
+    #todo{
+        display: flex;
+    }
+    #primeraParte{
+        justify-content: space-around;
+        flex-direction: unset;
+    }
 }

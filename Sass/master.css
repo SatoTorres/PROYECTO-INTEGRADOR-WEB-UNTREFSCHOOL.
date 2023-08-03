@@ -1,12 +1,33 @@
+#todo {
+  display: flex;
+  background-color: #EFF5F5;
+}
+
 #primeraParte {
+  display: flex;
+  justify-content: space-around;
   background-color: #fc7300;
   border-bottom-style: outset;
   border-color: #181823;
   border-bottom-width: 3px;
   font-family: "Belanosima", sans-serif;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  padding: 10px;
+}
+
+#boton {
+  background-color: #fc7300;
+  display: inline-block;
+  padding: 7px 10px;
+}
+
+#boton:hover {
+  background-color: #EFF5F5;
 }
 
 #banner {
+  display: flex;
   font-family: "Poppins", sans-serif;
   font-size: 120px;
   color: #EFF5F5;
@@ -19,10 +40,13 @@
 }
 
 #bannerTitulo {
+  display: flex;
   border-bottom-style: outset;
   border-color: #181823;
   border-bottom-width: 3px;
   image-rendering: auto;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 #sectionUno {
@@ -30,6 +54,12 @@
   border-bottom-style: outset;
   border-color: #181823;
   border-bottom-width: 3px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+#s1 {
+  display: flex;
 }
 
 #quienesSomos {
@@ -37,11 +67,24 @@
   font-size: xx-large;
 }
 
+#quienesImg {
+  image-rendering: auto;
+  -o-object-fit: fill;
+     object-fit: fill;
+  width: 400px;
+  height: 200px;
+}
+
 #sectionDos {
   background-color: #1F8A70;
   border-bottom-style: outset;
   border-color: #181823;
   border-bottom-width: 3px;
+  padding: 10px;
+}
+
+#s2 {
+  display: flex;
 }
 
 #porQue {
@@ -49,11 +92,17 @@
   font-size: xx-large;
 }
 
+#porQueImg {
+  width: 400px;
+  height: 200px;
+}
+
 #sectionTres {
   background-color: #fc7300;
   border-bottom-style: outset;
   border-color: #181823;
   border-bottom-width: 3px;
+  padding: 10px;
 }
 
 #propuestaEducativa {
@@ -61,10 +110,35 @@
   font-size: xx-large;
 }
 
+#prop1 {
+  width: 300px;
+  height: 200px;
+}
+
+#prop2 {
+  width: 300px;
+  height: 200px;
+}
+
+#prop3 {
+  width: 300px;
+  height: 200px;
+}
+
+#prop4 {
+  width: 300px;
+  height: 200px;
+}
+
 #sectionCuatro {
   border-bottom-style: outset;
   border-color: #181823;
   border-bottom-width: 3px;
+  padding: 10px;
+}
+
+#s4 {
+  display: flex;
 }
 
 #ultimasNoticias {
@@ -73,5 +147,47 @@
 }
 
 #pie {
+  display: flex;
+  justify-content: space-around;
   background-color: #fc7300;
+}
+
+#mapa {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+@media (max-width: 320px) {
+  #todo {
+    flex-direction: column;
+    justify-content: start;
+  }
+  #primeraParte {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #boton {
+    margin: 6px 0px;
+  }
+}
+@media (min-width: 321px) {
+  #todo {
+    flex-direction: column;
+  }
+  #primeraParte {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #boton {
+    margin: 6px 0px;
+  }
+}
+@media (min-width: 769px) {
+  #todo {
+    display: flex;
+  }
+  #primeraParte {
+    justify-content: space-around;
+    flex-direction: unset;
+  }
 }/*# sourceMappingURL=master.css.map */
